@@ -2,13 +2,23 @@
 
 Check if a string is the value of `border-style` property
 
-## Installation
+## Install
 
 ```shell
 $ npm install is-border-style
 ```
 
-## Example
+## Usage
+
+```js
+var isBorderStyle = require('is-border-style')
+
+isBorderStyle('solid') // true
+isBorderStyle('dotted') // true
+isBorderStyle('none') // true
+isBorderStyle('foo') // false
+```
+
 
 ## License
 
