@@ -1,6 +1,6 @@
 {
   "name": "is-border-style",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Check if a string is the value of `border-style` property",
   "main": "index.js",
   "scripts": {
